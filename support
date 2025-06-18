@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Aide - Mon Dressing Connecté</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            margin: 0; padding: 0; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333; min-height: 100vh;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .header { 
+            background: rgba(255,255,255,0.95); 
+            padding: 40px; border-radius: 15px; 
+            text-align: center; margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .header h1 { margin: 0; font-size: 2.5em; color: #667eea; }
+        .content { 
+            background: rgba(255,255,255,0.95); 
+            padding: 40px; border-radius: 15px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .faq-section { margin: 30px 0; }
+        .faq-item { 
+            background: #f8f9ff; 
+            border-left: 4px solid #667eea; 
+            padding: 20px; margin: 15px 0; 
+            border-radius: 8px;
+        }
+        .faq-question { 
+            font-weight: bold; 
+            color: #667eea; 
+            font-size: 1.1em; 
+            margin-bottom: 10px;
+        }
+        .faq-answer { line-height: 1.6; }
+        .contact-box { 
+            background: #667eea; 
+            color: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            margin: 30px 0;
+            text-align: center;
+        }
+        .guide-section {
+            background: #f0f8ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            min-width: 30px;
+        }
+        .back-link { 
+            display: inline-block; 
+            margin-bottom: 20px; 
+            color: white; 
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+        }
+        .back-link:hover { background: rgba(255,255,255,0.3); }
+        h2 { color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px; }
+        h3 { color: #764ba2; }
+        .troubleshoot {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        .troubleshoot h4 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .feature-card .icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Retour à l'accueil</a>
+        
+        <div class="header">
+            <h1>🆘 Support & Aide</h1>
+            <p>Assistance complète pour Mon Dressing Connecté</p>
+        </div>
+        
+        <div class="content">
+            <h2>📱 Guide d'utilisation rapide</h2>
+            <div class="guide-section">
+                <h3>🚀 Premiers pas avec l'application</h3>
+                
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <strong>Créer votre compte</strong><br>
+                        Inscrivez-vous avec votre email et créez un mot de passe sécurisé
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <strong>Ajouter vos vêtements</strong><br>
+                        Utilisez l'appareil photo ou importez des images depuis votre galerie
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <strong>Organiser votre dressing</strong><br>
+                        L'IA classe automatiquement vos vêtements par catégorie et couleur
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <strong>Créer des looks</strong><br>
+                        Combinez vos vêtements pour créer des tenues personnalisées
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div>
+                        <strong>Recommandations météo</strong><br>
+                        Recevez des suggestions de tenues adaptées à la température
+                    </div>
+                </div>
+            </div>
+            
+            <h2>✨ Fonctionnalités principales</h2>
+            <div class="feature-list">
+                <div class="feature-card">
+                    <div class="icon">🤖</div>
+                    <h4>Intelligence Artificielle</h4>
+                    <p>Analyse automatique de vos vêtements avec reconnaissance des couleurs, matières et styles</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">🌡️</div>
+                    <h4>Météo Intelligente</h4>
+                    <p>Suggestions de tenues basées sur la température et les conditions météorologiques</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">👗</div>
+                    <h4>Création de Looks</h4>
+                    <p>Combinez vos vêtements pour créer des tenues parfaites pour chaque occasion</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">📌</div>
+                    <h4>Inspirations Pinterest</h4>
+                    <p>Découvrez les dernières tendances mode et trouvez l'inspiration</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>❓ Questions Fréquemment Posées (FAQ)</h2>
+            <div class="faq-section">
+                
+                <div class="faq-item">
+                    <div class="faq-question">🔐 Mes données sont-elles sécurisées ?</div>
+                    <div class="faq-answer">
+                        Oui, absolument ! Toutes vos données sont chiffrées et stockées de manière sécurisée sur Firebase. Nous respectons le RGPD et ne partageons jamais vos informations personnelles. Consultez notre <a href="privacy.html">politique de confidentialité</a> pour plus de détails.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">📷 Comment ajouter des vêtements à mon dressing ?</div>
+                    <div class="faq-answer">
+                        Allez dans l'onglet "Ajouter" et choisissez entre "Prendre une photo" ou "Importer depuis la galerie". L'IA analysera automatiquement votre vêtement et l'ajoutera à votre dressing avec toutes les informations détectées (couleur, type, style).
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">🌡️ Comment fonctionnent les recommandations météo ?</div>
+                    <div class="faq-answer">
+                        L'application utilise votre localisation pour obtenir la météo en temps réel et vous suggère des tenues adaptées. Par exemple, elle recommandera des vêtements chauds s'il fait froid ou des tenues légères par temps chaud.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">👗 Comment créer un look personnalisé ?</div>
+                    <div class="faq-answer">
+                        Dans l'onglet "Looks", cliquez sur le bouton "+" pour créer un nouveau look. Sélectionnez les vêtements que vous souhaitez combiner et sauvegardez votre création. Vous pouvez également utiliser les suggestions automatiques de l'IA.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">🔄 Puis-je modifier ou supprimer mes vêtements ?</div>
+                    <div class="faq-answer">
+                        Oui ! Cliquez sur n'importe quel vêtement dans votre dressing pour accéder aux options d'édition. Vous pouvez modifier les informations, changer la catégorie ou supprimer l'article complètement.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">📱 L'application fonctionne-t-elle hors ligne ?</div>
+                    <div class="faq-answer">
+                        Partiellement. Vous pouvez consulter votre dressing et vos looks même sans connexion internet. Cependant, les fonctionnalités IA, météo et inspirations Pinterest nécessitent une connexion.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">💡 L'IA peut-elle reconnaître tous types de vêtements ?</div>
+                    <div class="faq-answer">
+                        Notre IA reconnaît la plupart des vêtements courants : chemises, pantalons, robes, vestes, chaussures, accessoires, etc. Elle détecte aussi les couleurs, motifs et certains matériaux. Si un vêtement n'est pas bien reconnu, vous pouvez corriger manuellement.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">🌍 Dans quels pays l'application est-elle disponible ?</div>
+                    <div class="faq-answer">
+                        Mon Dressing Connecté est disponible dans de nombreux pays. Les recommandations météo fonctionnent mondialement, et l'interface est disponible en français et anglais.
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>🔧 Résolution de problèmes</h2>
+            
+            <div class="troubleshoot">
+                <h4>📷 Problème avec l'appareil photo</h4>
+                <p><strong>Solutions :</strong></p>
+                <ul>
+                    <li>Vérifiez que l'application a l'autorisation d'accéder à l'appareil photo dans les paramètres de votre téléphone</li>
+                    <li>Redémarrez l'application</li>
+                    <li>Assurez-vous d'avoir suffisamment d'espace de stockage</li>
+                </ul>
+            </div>
+            
+            <div class="troubleshoot">
+                <h4>🌐 Problèmes de connexion</h4>
+                <p><strong>Solutions :</strong></p>
+                <ul>
+                    <li>Vérifiez votre connexion internet (WiFi ou données mobiles)</li>
+                    <li>Essayez de fermer et rouvrir l'application</li>
+                    <li>Vérifiez si une mise à jour est disponible sur l'App Store</li>
+                </ul>
+            </div>
+            
+            <div class="troubleshoot">
+                <h4>🐌 Application lente</h4>
+                <p><strong>Solutions :</strong></p>
+                <ul>
+                    <li>Fermez les autres applications en arrière-plan</li>
+                    <li>Redémarrez votre téléphone</li>
+                    <li>Vérifiez que vous avez la dernière version</li>
+                    <li>Libérez de l'espace de stockage</li>
+                </ul>
+            </div>
+            
+            <div class="troubleshoot">
+                <h4>🔑 Problème de connexion au compte</h4>
+                <p><strong>Solutions :</strong></p>
+                <ul>
+                    <li>Vérifiez votre email et mot de passe</li>
+                    <li>Utilisez la fonction "Mot de passe oublié" si nécessaire</li>
+                    <li>Assurez-vous que votre email est confirmé</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="contact-box">
+            <h2>📧 Besoin d'aide personnalisée ?</h2>
+            <p><strong>Contactez notre équipe support :</strong></p>
+            <p>📧 <strong>Email :</strong> raphaelsimonpro@gmail.com</p>
+            <p>⏰ <strong>Délai de réponse :</strong> Moins de 24 heures</p>
+            <p>🕒 <strong>Horaires :</strong> Du lundi au vendredi, 9h-18h (CET)</p>
+            
+            <div style="margin-top: 30px;">
+                <h3>📝 Lors de votre contact, merci d'inclure :</h3>
+                <ul style="text-align: left; max-width: 400px; margin: 0 auto;">
+                    <li>Version de l'application</li>
+                    <li>Modèle de votre téléphone</li>
+                    <li>Description détaillée du problème</li>
+                    <li>Captures d'écran si applicable</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>🔄 Mises à jour et versions</h2>
+            <p>Nous mettons régulièrement à jour Mon Dressing Connecté pour améliorer votre expérience :</p>
+            
+            <div class="faq-item">
+                <div class="faq-question">📱 Version actuelle : 1.0.0</div>
+                <div class="faq-answer">
+                    <strong>Nouveautés :</strong>
+                    <ul>
+                        <li>Lancement initial avec IA avancée</li>
+                        <li>Recommandations météo intelligentes</li>
+                        <li>Création de looks personnalisés</li>
+                        <li>Inspirations Pinterest intégrées</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p><strong>🔔 Comment activer les notifications de mise à jour :</strong></p>
+            <ol>
+                <li>Ouvrez l'App Store</li>
+                <li>Allez dans votre profil</li>
+                <li>Activez les mises à jour automatiques</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
